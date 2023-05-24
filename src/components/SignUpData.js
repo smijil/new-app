@@ -82,7 +82,7 @@ export default function SignUP(props){
               </div>
 
               <div className="form-outline form-white mb-4">
-                <input type="text" min='10' id="typePhonenoX" className="form-control form-control-lg" placeholder='Phone number' name='number' value={phoneno} onChange={(e)=>{setPhoneno(e.target.value)}} required/>
+                <input type="text" min='10' max='10' id="typePhonenoX" className="form-control form-control-lg" placeholder='Phone number' name='number' value={phoneno} onChange={(e)=>{setPhoneno(e.target.value)}} required/>
                 <label className="form-label" htmlFor="typePasswordX">Phone Number</label>
               </div>
 
